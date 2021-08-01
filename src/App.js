@@ -7,7 +7,9 @@ function App() {
     <div className="App">
       <Header></Header>
       <br></br>
-      <RegistrationForm></RegistrationForm>
+      <div className="h-100 d-flex justify-content-center align-items-center">
+        <RegistrationForm></RegistrationForm>
+      </div>      
     </div>
   );
 }
